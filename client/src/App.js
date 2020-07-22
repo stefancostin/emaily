@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -10,11 +10,7 @@ function App() {
         <p>
           Welcome to <code>Emaily</code>
         </p>
-        <a
-          className="App-link"
-          href="/auth/google"
-          target="_blank"
-        >
+        <a className="App-link" href="/auth/google" target="_blank">
           Sign in With Google
         </a>
       </header>
