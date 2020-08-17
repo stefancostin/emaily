@@ -31,6 +31,7 @@ passport.use(
         // we already have a record with the given profile ID
         return done(null, existingUser);
       }
+
       // we don't have a user record with this ID, make a new record
       const createdUser = await new User(user).save();
       done(null, createdUser);
